@@ -1,26 +1,44 @@
-# employee-performance-analysis
-Python-based Sentimental analysis of employee performance patterns using statistical insights
-# Employee Performance Report
+# 📊 Employee Performance Sentiment Analysis (Self-Evaluation Insights)
 
-### 🎯 Objective:
-To assess and interpret employee performance patterns across departments, tenure bands, and KPIs to inform training, retention, and strategic planning.
+This project analyzes self-reported performance sentiments across departments, genders, and locations using Python and Excel. It includes both quantitative scoring and qualitative feedback via word clouds and thematic categorization.
 
-### 📁 Project Files:
-- 📄 `Employee_Performance_Report.pdf`: Complete analytical report
-- 📊 Dashboard screenshots and visuals
-- 📂 (Optional) Sample dataset
+## 📌 Project Overview:
+- Source: Internal employee self-evaluations (anonymized)
+- Scope: 12-page report combining sentiment scoring, department trends, gender analysis, and feedback patterns
+- Tools: Python (pandas, matplotlib, wordcloud), Excel, manual annotation
+- Format: Final PDF report + thematic visuals + dashboard summary
 
-### 🧠 Summary of Insights:
-- Employees in customer-facing roles with 3–5 years tenure scored significantly higher in performance reviews.
-- Departments with hybrid work models had more consistent KPI outcomes than in-office-only teams.
-- Leadership engagement strongly correlated with team performance trends.
+## 🔍 Key Highlights:
+- Average sentiment score: **0.21** (positive)
+- Top-performing departments: **PHP & Frontend, Infra & Cloud**
+- Pain points identified: **Communication gaps, deadline stress, workload imbalance**
+- Gender-based insight: Female employees showed more consistent, moderate sentiment; male employees had higher variance
+- Cities with highest positivity: **Karachi > Islamabad > Lahore**
 
-### 🛠 Tools Used:
-- Power BI (for visuals)
-- Manual analysis (Excel, basic stats)
-- Business storytelling and visual summaries
+## 🧠 Techniques Used:
+- Custom scoring model (range 0.00 – 0.30)
+- Box plot comparisons by gender
+- Word cloud analysis on qualitative feedback
+- Thematic categorization of recurring terms
 
-### 💡 Business Outcome:
-This report guided HR in creating a targeted upskilling plan and helped operations identify departments needing performance interventions.
+## 🖼️ Visuals Include:
+- Word Clouds (General & Negative Themes)
+- Sentiment Box Plots (by Gender)
+- Score Distribution (by Department & City)
+- KPI Summary Dashboard
+
+## 📄 Deliverables:
+- Final Report: `PYTHON - Employee Performance Sentiment Report.pdf`
+- Screenshots and summary images for presentation
+- Markdown breakdown for future dashboards or automation
+
+## ⚙️ Tools:
+- Python (pandas, matplotlib, wordcloud)
+- Microsoft Excel
+- Manual thematic coding (Excel + Python hybrid)
 
 ---
+
+**Disclaimer**: All data is anonymized and derived from mock evaluation formats. No proprietary or sensitive organizational data is exposed.
+
+📬 For questions or collaboration: [LinkedIn – Mariyam Awan](your-link-here)
